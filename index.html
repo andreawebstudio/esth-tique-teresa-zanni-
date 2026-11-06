@@ -1,0 +1,1132 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esthétique di Teresa Zanni | Centro Estetico e Make-up a Orta Nova</title>
+<meta name="description" content="Esthétique di Teresa Zanni a Orta Nova: ricostruzione unghie, luxury make-up, trattamenti viso e corpo, epilazione laser e corsi di formazione beauty.">
+<meta name="theme-color" content="#FAF8F6">
+<link rel="canonical" href="./">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Esthétique di Teresa Zanni">
+<meta property="og:title" content="Esthétique di Teresa Zanni | Centro Estetico e Make-up a Orta Nova">
+<meta property="og:description" content="Ricostruzione unghie, luxury make-up, trucco sposa, trattamenti viso e corpo, epilazione laser e corsi di formazione beauty a Orta Nova (FG).">
+<meta property="og:image" content="assets/servizio-unghie.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Fonts: Playfair Display + Montserrat -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+<link rel="preload" as="image"
+  imagesrcset="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&q=70&auto=format&fit=crop 800w, https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=1400&q=70&auto=format&fit=crop 1400w, https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=2000&q=70&auto=format&fit=crop 2000w"
+  imagesizes="100vw">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Esthétique di Teresa Zanni",
+  "telephone": "+393208525205",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via San Pasquale 6",
+    "postalCode": "71045",
+    "addressLocality": "Orta Nova",
+    "addressRegion": "FG",
+    "addressCountry": "IT"
+  },
+  "sameAs": [
+    "https://www.instagram.com/teresa.zanni_esthetique/"
+  ]
+}
+</script>
+
+<style>
+/* =========================================================
+   TOKENS — palette vincolante
+   ========================================================= */
+:root{
+  --ivory:#FAF8F6;
+  --champagne:#E9DED7;
+  --blush:#D8B9B1;
+  --taupe:#A7807C;
+  --espresso:#493936;
+  --black:#181719;
+  --white:#FFFFFF;
+
+  --f-title:"Playfair Display", Georgia, "Times New Roman", serif;
+  --f-text:"Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+  --header-h:76px;
+  --gutter:clamp(16px, 4vw, 48px);
+  --maxw:1200px;
+  --radius:4px;
+  --radius-card:10px;
+  --shadow:0 1px 2px rgba(73,57,54,.04), 0 8px 28px rgba(73,57,54,.05);
+  --ease:cubic-bezier(.25,.6,.3,1);
+  --dur:350ms;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 8px);-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--ivory);color:var(--black);
+  font-family:var(--f-text);font-weight:400;font-size:16px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{max-width:100%;display:block;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f-title);color:var(--espresso);font-weight:600;line-height:1.2;margin:0;letter-spacing:.005em}
+p{margin:0 0 1.1em}
+strong{font-weight:600;color:var(--espresso)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.skip{position:absolute;left:-9999px;top:8px;background:var(--espresso);color:var(--white);padding:10px 16px;z-index:200;border-radius:var(--radius);text-decoration:none}
+.skip:focus{left:16px}
+:focus-visible{outline:2px solid var(--espresso);outline-offset:3px;border-radius:2px}
+.on-dark :focus-visible{outline-color:var(--champagne)}
+
+.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.section{padding:clamp(72px, 10vw, 128px) 0}
+/* Alternanza sfondi: bianco → avorio → champagne */
+.bg-white{background:var(--white)}
+.bg-ivory{background:var(--ivory)}
+.bg-champagne{background:var(--champagne)}
+
+/* ---------- Section heads (sempre centrati) ---------- */
+.head{text-align:center;max-width:780px;margin:0 auto clamp(40px,6vw,64px)}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:14px;
+  font-family:var(--f-text);font-weight:500;font-size:12.5px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--espresso);
+  margin:0 0 18px;
+}
+.eyebrow::before,.eyebrow::after{content:"";width:28px;height:1px;background:var(--taupe);flex-shrink:0}
+.h2{font-size:clamp(1.85rem, 1.25rem + 2.4vw, 2.9rem);letter-spacing:0;line-height:1.18}
+.lead{margin:22px auto 0;max-width:660px;font-size:clamp(1rem, .96rem + .2vw, 1.08rem);color:var(--black)}
+@media (max-width:420px){
+  .eyebrow{gap:10px;letter-spacing:.16em;font-size:11.5px}
+  .eyebrow::before,.eyebrow::after{width:16px}
+  .hero .eyebrow::before,.hero .eyebrow::after{display:none}
+}
+
+/* ---------- CTA ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:50px;padding:14px 30px;border-radius:var(--radius);
+  font-family:var(--f-text);font-weight:600;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+  text-decoration:none;text-align:center;cursor:pointer;border:1px solid var(--espresso);
+  transition:background-color var(--dur) var(--ease), color var(--dur) var(--ease), filter var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+.btn-primary{background:var(--espresso);color:var(--white)}
+.btn-primary:hover{filter:brightness(1.18)}
+.btn-secondary{background:transparent;color:var(--espresso)}
+.btn-secondary:hover{background:rgba(73,57,54,.06)}
+.btn-row{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
+.cta-end{text-align:center;margin-top:clamp(40px,6vw,60px)}
+
+/* =========================================================
+   HEADER — menu in linea su desktop, burger solo su mobile
+   ========================================================= */
+.site-header{position:sticky;top:0;z-index:100;background:var(--ivory);border-bottom:1px solid var(--champagne);height:var(--header-h)}
+.site-header .bar{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;max-width:1400px}
+.brand{display:flex;flex-direction:column;align-items:flex-start;text-decoration:none;color:var(--espresso);line-height:1;flex-shrink:0}
+.brand-name{font-family:var(--f-title);font-weight:600;font-size:22px;letter-spacing:.14em}
+.brand-sub{font-family:var(--f-text);font-weight:500;font-size:9.5px;letter-spacing:.32em;margin-top:7px}
+
+.nav{display:flex;align-items:center;gap:22px;flex:1;justify-content:flex-end;min-width:0}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;align-items:center;gap:clamp(12px,1.35vw,24px);flex-wrap:nowrap}
+.nav a.link{font-size:12.5px;font-weight:500;letter-spacing:.04em;text-decoration:none;color:var(--black);padding:8px 0;position:relative;white-space:nowrap}
+.nav a.link::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--taupe);transform:scaleX(0);transform-origin:left;transition:transform var(--dur) var(--ease)}
+.nav a.link:hover::after,.nav a.link[aria-current="true"]::after{transform:scaleX(1)}
+.nav .btn{min-height:44px;padding:11px 20px;font-size:11.5px;letter-spacing:.14em;white-space:nowrap;flex-shrink:0}
+
+.burger{display:none;width:48px;height:48px;border:1px solid var(--champagne);background:var(--white);border-radius:var(--radius);cursor:pointer;align-items:center;justify-content:center;flex-shrink:0}
+.burger span{display:block;width:20px;height:1.5px;background:var(--espresso);position:relative;transition:background var(--dur)}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:20px;height:1.5px;background:var(--espresso);transition:transform var(--dur) var(--ease)}
+.burger span::before{top:-6px}.burger span::after{top:6px}
+.burger[aria-expanded="true"] span{background:transparent}
+.burger[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.burger[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+
+/* Desktop compatto (1024–1279): tutto su una riga */
+@media (min-width:1024px) and (max-width:1279px){
+  .site-header .bar{gap:24px;padding:0 20px}
+  .brand-name{font-size:17px;letter-spacing:.1em}
+  .brand-sub{font-size:7.5px;letter-spacing:.22em}
+  .nav{gap:14px}
+  .nav ul{gap:clamp(9px,1.05vw,13px)}
+  .nav a.link{font-size:10.8px;letter-spacing:0}
+  .nav .btn{padding:10px 14px;font-size:10.5px;letter-spacing:.1em}
+}
+
+/* Mobile / tablet: burger */
+@media (max-width:1023px){
+  .burger{display:inline-flex}
+  .nav{
+    position:fixed;left:0;right:0;top:var(--header-h);bottom:0;
+    background:var(--ivory);flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;
+    padding:16px var(--gutter) 40px;overflow-y:auto;
+    opacity:0;visibility:hidden;transform:translateY(-8px);
+    transition:opacity var(--dur) var(--ease), transform var(--dur) var(--ease), visibility 0s linear var(--dur);
+  }
+  .nav.open{opacity:1;visibility:visible;transform:none;transition:opacity var(--dur) var(--ease), transform var(--dur) var(--ease)}
+  .nav ul{flex-direction:column;align-items:stretch;gap:0}
+  .nav a.link{display:block;padding:15px 0;font-size:15px;border-bottom:1px solid var(--champagne);text-align:center}
+  .nav a.link::after{display:none}
+  .nav .btn{margin-top:28px;min-height:52px;font-size:12.5px}
+}
+@media (max-width:380px){
+  .brand-name{font-size:19px;letter-spacing:.12em}
+  .brand-sub{font-size:8.5px;letter-spacing:.26em}
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+.hero{position:relative;min-height:calc(100svh - var(--header-h));display:flex;align-items:center;justify-content:center;overflow:hidden;text-align:center}
+.hero .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%}
+.hero::after{content:"";position:absolute;inset:0;background:rgba(250,248,246,.80)}
+.hero-inner{position:relative;z-index:1;padding:clamp(72px,12vh,140px) var(--gutter) clamp(64px,10vh,120px);max-width:1100px;margin:0 auto}
+.hero .eyebrow{font-size:12px}
+.hero h1{font-size:clamp(2.3rem, 1.2rem + 3.9vw, 4.4rem);font-weight:600;line-height:1.12;letter-spacing:0;margin:6px 0 0}
+.hero h1 .l1{display:block;color:var(--espresso)}
+.hero h1 .l2{display:block;color:var(--taupe);font-style:italic;font-weight:500;margin-top:.08em}
+.hero .lead{max-width:640px;margin-top:28px}
+.hero .btn-row{margin-top:40px}
+
+/* =========================================================
+   CHI SIAMO — foto sopra il minititolo su mobile
+   ========================================================= */
+.about{display:grid;grid-template-columns:1fr;grid-template-areas:"photo" "head" "text";gap:0}
+.about .head{grid-area:head;margin-bottom:40px}
+.about-photo{grid-area:photo;justify-self:center;width:210px;margin:0 0 40px}
+.about-photo img{width:100%;aspect-ratio:1/1;border-radius:50%;object-fit:cover;outline:1px solid var(--blush);outline-offset:10px}
+.about-text{grid-area:text;font-size:1.02rem;max-width:720px;margin:0 auto}
+.about-text p:first-child{font-family:var(--f-title);font-size:clamp(1.25rem,1.1rem + .6vw,1.5rem);line-height:1.5;color:var(--espresso);font-weight:500}
+.about-text .quote{border-left:1px solid var(--blush);padding-left:22px;margin:28px 0;font-family:var(--f-title);font-style:italic;font-size:1.15rem;line-height:1.6;color:var(--espresso)}
+.about-text p:last-child{margin-bottom:0}
+@media (min-width:900px){
+  .about{grid-template-columns:300px 1fr;grid-template-areas:"head head" "photo text";column-gap:clamp(48px,6vw,88px)}
+  .about .head{margin-bottom:clamp(40px,6vw,64px)}
+  .about-photo{width:300px;justify-self:start;margin:12px 0 0;position:sticky;top:calc(var(--header-h) + 48px);align-self:start}
+  .about-text{margin:0}
+}
+
+/* =========================================================
+   A CHI CI RIVOLGIAMO — card con icona
+   ========================================================= */
+.cards{display:grid;gap:clamp(20px,2.4vw,32px);grid-template-columns:1fr}
+.card{background:var(--white);border:1px solid var(--champagne);border-radius:var(--radius-card);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease)}
+.card:hover{transform:translateY(-3px);box-shadow:0 1px 2px rgba(73,57,54,.05), 0 14px 36px rgba(73,57,54,.08)}
+.cards-3{max-width:520px;margin:0 auto}
+@media (min-width:900px){.cards-3{grid-template-columns:repeat(3,1fr);max-width:none}}
+.target{padding:clamp(32px,3.4vw,44px) clamp(24px,2.6vw,36px);text-align:center;align-items:center}
+.t-icon{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;margin:0 auto 26px;background:var(--ivory);border:1px solid var(--blush);position:relative}
+.t-icon::after{content:"";position:absolute;inset:-7px;border-radius:50%;border:1px solid rgba(216,185,177,.45)}
+.t-icon svg{width:32px;height:32px;fill:none;stroke:var(--espresso);stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
+.target h3{font-size:clamp(1.15rem,1.05rem + .35vw,1.35rem);line-height:1.35;margin-bottom:14px}
+.target p{font-size:.95rem;margin:0}
+.target .sep{width:36px;height:1px;background:var(--blush);margin:0 auto 16px}
+
+/* =========================================================
+   APPROCCIO — composizione "atelier" attorno a un emblema
+   ========================================================= */
+.intro-2{max-width:720px;margin:0 auto clamp(48px,7vw,80px);text-align:center}
+.atelier{display:grid;grid-template-columns:1fr;gap:40px;align-items:center;max-width:1080px;margin:0 auto}
+.pillar-col{list-style:none;margin:0;padding:0;display:grid;gap:44px}
+.pillar{position:relative;text-align:center}
+.pillar h3{font-size:1.35rem;letter-spacing:0;margin-bottom:10px;display:inline-flex;align-items:center;gap:12px}
+.pillar h3::before{content:"";width:8px;height:8px;background:var(--blush);transform:rotate(45deg);flex-shrink:0}
+.pillar p{margin:0;font-size:.96rem;max-width:340px;margin-inline:auto}
+
+.emblem{position:relative;width:min(280px,72vw);aspect-ratio:1;margin:0 auto;display:grid;place-items:center}
+.emblem .ring{position:absolute;inset:0;border-radius:50%;border:1px solid var(--blush)}
+.emblem .ring-2{inset:14px;border:1px dashed rgba(167,128,124,.55);animation:spin 60s linear infinite}
+.emblem .ring-3{inset:34px;background:var(--ivory);border:1px solid rgba(216,185,177,.7);box-shadow:0 18px 50px rgba(73,57,54,.08)}
+.emblem .dot{position:absolute;width:9px;height:9px;background:var(--espresso);transform:rotate(45deg)}
+.emblem .dot.t{top:-4px;left:calc(50% - 4.5px)}.emblem .dot.b{bottom:-4px;left:calc(50% - 4.5px)}
+.emblem .dot.l{left:-4px;top:calc(50% - 4.5px)}.emblem .dot.r{right:-4px;top:calc(50% - 4.5px)}
+.emblem-text{position:relative;text-align:center;font-family:var(--f-title);color:var(--espresso);line-height:1.2;padding:0 20px}
+.emblem-text .a{display:block;font-size:.72rem;font-family:var(--f-text);letter-spacing:.24em;text-transform:uppercase;font-weight:500;margin-bottom:10px}
+.emblem-text .b{display:block;font-size:clamp(1.45rem,1.2rem + .8vw,1.8rem);font-weight:600}
+.emblem-text .c{display:block;font-size:clamp(1.45rem,1.2rem + .8vw,1.8rem);font-style:italic;font-weight:500;color:var(--taupe)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:899px){.emblem{order:-1;margin-bottom:8px}}
+
+@media (min-width:900px){
+  .atelier{grid-template-columns:1fr auto 1fr;gap:clamp(32px,4vw,56px)}
+  .pillar-col{gap:72px}
+  .pillar-col.left .pillar{text-align:right}
+  .pillar-col.right .pillar{text-align:left}
+  .pillar-col.left .pillar p{margin-right:0}
+  .pillar-col.right .pillar p{margin-left:0}
+  .pillar-col.left h3{flex-direction:row-reverse}
+  /* linea di collegamento verso l'emblema */
+  .pillar::after{content:"";position:absolute;top:.8em;width:clamp(24px,3vw,44px);height:1px;background:var(--blush)}
+  .pillar-col.left .pillar::after{right:calc(-1 * clamp(32px,4vw,56px))}
+  .pillar-col.right .pillar::after{left:calc(-1 * clamp(32px,4vw,56px))}
+  .emblem{width:300px}
+}
+
+/* =========================================================
+   SERVIZI — 4 card uguali
+   ========================================================= */
+.cards-4{max-width:420px;margin:0 auto}
+@media (min-width:640px){.cards-4{grid-template-columns:repeat(2,1fr);max-width:780px}}
+/* Desktop: card compatte orizzontali in griglia 2×2 */
+@media (min-width:1000px){
+  .cards-4{grid-template-columns:repeat(2,1fr);max-width:1000px;gap:24px}
+  .service{flex-direction:row;min-height:230px}
+  .service .card-media{aspect-ratio:auto;width:40%;flex-shrink:0}
+  .service .card-body{padding:24px 26px;justify-content:center}
+  .service h3{font-size:1.2rem}
+  .service .tagline{font-size:.95rem;margin-bottom:12px;padding-bottom:12px}
+  .service p{font-size:.88rem;line-height:1.65}
+}
+.service .card-media{aspect-ratio:1/1;overflow:hidden;background:var(--champagne)}
+@media (max-width:639px){.cards-4{max-width:360px}.service .card-media{aspect-ratio:4/3}}
+.service .card-media img{width:100%;height:100%;object-fit:cover;transition:transform 450ms var(--ease)}
+.service:hover .card-media img{transform:scale(1.03)}
+.service .card-body{padding:24px 24px 28px;flex:1;display:flex;flex-direction:column}
+.service h3{font-size:1.2rem;line-height:1.3;margin-bottom:6px}
+.service .tagline{font-family:var(--f-title);font-style:italic;color:var(--taupe);font-size:1rem;line-height:1.4;margin:0 0 14px;padding-bottom:14px;border-bottom:1px solid var(--champagne)}
+.service p{font-size:.92rem;line-height:1.7;margin:0}
+
+/* =========================================================
+   CORSI — immagine centrale che apre il calendario
+   ========================================================= */
+.cal-trigger{
+  position:relative;display:block;width:100%;max-width:760px;margin:0 auto;padding:0;border:0;
+  border-radius:var(--radius-card);overflow:hidden;cursor:pointer;aspect-ratio:16/9;background:var(--champagne);
+  box-shadow:0 2px 4px rgba(73,57,54,.05), 0 22px 56px rgba(73,57,54,.12);
+  transition:box-shadow 450ms var(--ease), transform 450ms var(--ease)
+}
+.cal-trigger img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 700ms var(--ease)}
+.cal-trigger::after{content:"";position:absolute;inset:14px;border:1px solid rgba(255,255,255,.6);border-radius:6px;pointer-events:none;transition:inset 450ms var(--ease)}
+.cal-trigger:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(73,57,54,.06), 0 30px 70px rgba(73,57,54,.18)}
+.cal-trigger:hover img{transform:scale(1.04)}
+.cal-trigger:hover::after{inset:20px}
+.ct-more{
+  position:absolute;left:50%;bottom:30px;transform:translateX(-50%);z-index:2;
+  display:inline-flex;align-items:center;gap:8px;white-space:nowrap;
+  background:var(--espresso);color:var(--white);padding:11px 20px;border-radius:var(--radius);
+  font:600 11px/1 var(--f-text);letter-spacing:.16em;text-transform:uppercase;
+  box-shadow:0 8px 24px rgba(24,23,25,.22);transition:filter var(--dur) var(--ease)
+}
+.ct-more svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.6;transition:transform var(--dur) var(--ease)}
+.cal-trigger:hover .ct-more{filter:brightness(1.18)}
+.cal-trigger:hover .ct-more svg{transform:translateX(3px)}
+@media (max-width:480px){.ct-more{bottom:22px;padding:10px 16px;font-size:10.5px}}
+
+dialog.cal{width:min(640px, calc(100vw - 24px));max-height:min(88vh, 900px);padding:0;border:0;border-radius:12px;background:var(--ivory);color:var(--black);box-shadow:0 30px 90px rgba(24,23,25,.3);overflow:hidden}
+dialog.cal[open]{display:flex;flex-direction:column;animation:dlgIn 350ms var(--ease)}
+dialog.cal::backdrop{background:rgba(24,23,25,.55);backdrop-filter:blur(3px)}
+@keyframes dlgIn{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:none}}
+.cal-head{position:relative;padding:32px clamp(20px,4vw,44px) 22px;text-align:center;background:var(--white);border-bottom:1px solid var(--champagne)}
+.cal-head .eyebrow{margin-bottom:10px}
+.cal-head h2{font-size:clamp(1.5rem,1.25rem + .9vw,2rem);letter-spacing:0}
+.cal-close{position:absolute;top:14px;right:14px;width:44px;height:44px;border-radius:50%;border:1px solid var(--champagne);background:var(--ivory);cursor:pointer;display:grid;place-items:center}
+.cal-close svg{width:16px;height:16px;stroke:var(--espresso);stroke-width:1.6}
+.cal-filters{display:flex;justify-content:center;gap:8px;margin-top:18px;flex-wrap:wrap}
+.cal-filters button{min-height:40px;padding:8px 18px;border-radius:40px;border:1px solid var(--blush);background:transparent;color:var(--espresso);font:500 12px/1 var(--f-text);letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:background var(--dur) var(--ease), color var(--dur) var(--ease)}
+.cal-filters button[aria-pressed="true"]{background:var(--espresso);border-color:var(--espresso);color:var(--white)}
+.cal-body{overflow-y:auto;padding:8px clamp(16px,4vw,44px) 8px;overscroll-behavior:contain}
+.cal-list{list-style:none;margin:0;padding:0}
+.course{display:grid;grid-template-columns:1fr;gap:14px;padding:22px 0;border-bottom:1px solid var(--champagne)}
+.course:last-child{border-bottom:0}
+@media (min-width:640px){.course{grid-template-columns:1fr auto;align-items:center;gap:20px}}
+.course-cat{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--taupe)}
+.course h3{font-size:1.2rem;margin:4px 0 12px}
+.dates{display:flex;gap:8px;flex-wrap:wrap;list-style:none;margin:0;padding:0}
+.date{min-width:58px;padding:7px 10px 6px;border:1px solid var(--blush);border-radius:6px;background:var(--white);text-align:center;line-height:1.1}
+.date b{display:block;font-family:var(--f-title);font-size:1.25rem;color:var(--espresso);font-weight:600}
+.date span{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--black);margin-top:3px}
+.course .btn{min-height:44px;padding:10px 18px;font-size:11px;letter-spacing:.12em;justify-self:start}
+.course.is-past .date{opacity:.55}
+.badge{display:inline-block;margin-left:10px;padding:3px 9px;border-radius:20px;background:var(--champagne);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--espresso);font-weight:600;vertical-align:middle}
+.course[hidden]{display:none}
+.cal-foot{padding:18px clamp(16px,4vw,44px) 22px;background:var(--white);border-top:1px solid var(--champagne);font-size:.82rem;text-align:center}
+.cal-foot ul{list-style:none;margin:0 0 8px;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;font-weight:500;color:var(--espresso)}
+.cal-foot li::before{content:"";display:inline-block;width:6px;height:6px;background:var(--blush);transform:rotate(45deg);margin-right:8px;vertical-align:middle}
+.cal-foot p{margin:0}
+
+/* =========================================================
+   COME FUNZIONA — timeline animata, 4 passaggi
+   ========================================================= */
+.flow{position:relative;max-width:1100px;margin:0 auto;list-style:none;padding:0;display:grid;grid-template-columns:1fr;gap:48px}
+.flow-track{position:absolute;left:31px;top:32px;bottom:32px;width:1px;background:rgba(167,128,124,.35)}
+.flow-fill{position:absolute;left:0;top:0;width:100%;height:0;background:var(--espresso);transition:height 120ms linear}
+.flow-fill::after{content:"";position:absolute;left:50%;bottom:-5px;width:11px;height:11px;margin-left:-5.5px;border-radius:50%;background:var(--blush);box-shadow:0 0 0 6px rgba(216,185,177,.35), 0 0 22px 6px rgba(216,185,177,.7)}
+.flow-step{position:relative;padding-left:92px;min-height:64px}
+.f-num{position:absolute;left:0;top:0;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--champagne);border:1px solid var(--taupe);font-family:var(--f-title);font-size:1.3rem;font-weight:600;color:var(--espresso);z-index:1;transition:background 450ms var(--ease), color 450ms var(--ease), transform 450ms var(--ease), border-color 450ms}
+.f-num::before{content:"";position:absolute;inset:-1px;border-radius:50%;border:1px solid var(--blush);opacity:0}
+.flow-step h3{font-size:1.35rem;letter-spacing:0;margin:8px 0 10px;transition:color 450ms}
+.flow-step p{margin:0;font-size:.97rem;max-width:300px}
+.flow-step .f-text{opacity:.45;transform:translateY(8px);transition:opacity 450ms var(--ease), transform 450ms var(--ease)}
+.flow-step.on .f-num{background:var(--espresso);color:var(--white);border-color:var(--espresso);transform:scale(1.06)}
+.flow-step.on .f-num::before{animation:ripple 1.6s var(--ease) 1}
+.flow-step.on .f-text{opacity:1;transform:none}
+@keyframes ripple{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(1.7)}}
+@media (min-width:900px){
+  .flow{grid-template-columns:repeat(4,1fr);gap:32px}
+  .flow-track{left:12.5%;right:12.5%;top:39px;bottom:auto;width:auto;height:1px}
+  .flow-fill{height:100%;width:0;transition:width 120ms linear}
+  .flow-fill::after{left:auto;right:-5px;top:50%;bottom:auto;margin:-5.5px 0 0}
+  .flow-step{padding-left:0;text-align:center}
+  .f-num{position:relative;margin:7px auto 28px;width:64px;height:64px}
+  .flow-step p{margin:0 auto}
+}
+
+/* =========================================================
+   DOVE SIAMO — mappa + piccola box indirizzo
+   ========================================================= */
+.addr-box{font-style:normal;position:relative;width:max-content;max-width:100%;margin:0 auto;background:var(--white);border:1px solid var(--blush);border-radius:var(--radius-card);padding:18px 28px;text-align:center;box-shadow:0 12px 36px rgba(73,57,54,.1);display:flex;align-items:center;gap:16px}
+.addr-box svg{width:26px;height:26px;flex-shrink:0;fill:none;stroke:var(--espresso);stroke-width:1.3}
+.addr-box p{margin:0;text-align:left;line-height:1.5}
+.addr-box .a1{font-family:var(--f-title);font-weight:600;color:var(--espresso);font-size:1.08rem}
+.addr-box .a2{font-size:.9rem}
+
+/* =========================================================
+   FAQ — accordion
+   ========================================================= */
+.faq{max-width:860px;margin:0 auto;border-top:1px solid var(--champagne)}
+.faq-item{border-bottom:1px solid var(--champagne)}
+.faq-q{margin:0;font-family:var(--f-text)}
+.faq-btn{width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;background:none;border:0;cursor:pointer;text-align:left;padding:24px 4px;font-family:var(--f-title);font-size:clamp(1.02rem,.96rem + .3vw,1.2rem);font-weight:600;color:var(--espresso);line-height:1.4}
+.faq-icon{flex-shrink:0;width:34px;height:34px;border:1px solid var(--blush);border-radius:50%;position:relative;transition:background var(--dur)}
+.faq-icon::before,.faq-icon::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:1.5px;background:var(--taupe);transform:translate(-50%,-50%)}
+.faq-icon::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform var(--dur) var(--ease)}
+.faq-btn[aria-expanded="true"] .faq-icon{background:var(--blush)}
+.faq-btn[aria-expanded="true"] .faq-icon::before,.faq-btn[aria-expanded="true"] .faq-icon::after{background:var(--espresso)}
+.faq-btn[aria-expanded="true"] .faq-icon::after{transform:translate(-50%,-50%) rotate(0deg)}
+.faq-panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows var(--dur) var(--ease)}
+.faq-panel > div{overflow:hidden;visibility:hidden;transition:visibility 0s linear var(--dur)}
+.faq-item.open .faq-panel{grid-template-rows:1fr}
+.faq-item.open .faq-panel > div{visibility:visible;transition:none}
+.faq-panel p{margin:0;padding:0 56px 26px 4px;font-size:.98rem}
+
+/* =========================================================
+   CONTATTI — solo form centrale
+   ========================================================= */
+.form-card{max-width:580px;margin:0 auto;background:var(--white);border:1px solid rgba(167,128,124,.3);border-radius:12px;padding:clamp(26px,4vw,40px);box-shadow:var(--shadow)}
+.f-row{display:grid;grid-template-columns:1fr;gap:16px}
+@media (min-width:560px){.f-row.two{grid-template-columns:1fr 1fr}}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.f-row .field{margin-bottom:0}
+.f-row{margin-bottom:16px}
+.field label{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--espresso)}
+.field label .opt{text-transform:none;letter-spacing:0;font-weight:400;color:var(--black)}
+.field input,.field select,.field textarea{
+  width:100%;font:400 .95rem/1.5 var(--f-text);color:var(--black);background:var(--ivory);
+  border:1px solid rgba(167,128,124,.5);border-radius:6px;padding:12px 14px;min-height:48px;
+  transition:border-color var(--dur) var(--ease), background var(--dur) var(--ease);appearance:none;-webkit-appearance:none
+}
+.field select{background-image:linear-gradient(45deg, transparent 50%, var(--espresso) 50%),linear-gradient(135deg, var(--espresso) 50%, transparent 50%);background-position:calc(100% - 20px) 21px, calc(100% - 15px) 21px;background-size:5px 5px;background-repeat:no-repeat;padding-right:40px}
+.field textarea{min-height:110px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--espresso);background:var(--white);box-shadow:0 0 0 3px rgba(216,185,177,.45)}
+.field input[aria-invalid="true"],.field select[aria-invalid="true"],.field textarea[aria-invalid="true"]{border-color:var(--espresso);box-shadow:0 0 0 3px rgba(216,185,177,.6)}
+.check{display:flex;gap:12px;align-items:flex-start;font-size:.85rem;line-height:1.55;margin:6px 0 22px}
+.check input{width:20px;height:20px;margin:1px 0 0;accent-color:var(--espresso);flex-shrink:0}
+.check a{color:var(--espresso);font-weight:600}
+.form-card .btn{width:100%}
+.form-status{margin:16px 0 0;font-size:.9rem;text-align:center;min-height:1.5em;color:var(--espresso);font-weight:500}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+.site-footer{background:var(--espresso);color:var(--white);padding:clamp(64px,8vw,96px) 0 32px}
+.f-top{text-align:center;padding-bottom:44px;border-bottom:1px solid rgba(233,222,215,.25)}
+.f-brand{display:inline-flex;flex-direction:column;align-items:center;line-height:1}
+.f-brand .brand-name{font-size:30px;color:var(--white);letter-spacing:.16em}
+.f-brand .brand-sub{color:var(--champagne);font-size:10.5px;margin-top:10px}
+.f-claim{font-family:var(--f-title);font-style:italic;font-size:clamp(1.05rem,1rem + .4vw,1.3rem);color:var(--champagne);margin:26px auto 0;max-width:620px;line-height:1.5}
+.f-grid{display:grid;grid-template-columns:1fr;gap:36px;padding:44px 0;text-align:center}
+@media (min-width:760px){.f-grid{grid-template-columns:1fr 1.4fr;text-align:left}}
+.f-title{font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--blush);margin:0 0 16px}
+.f-contacts p{margin:0 0 8px;font-size:.95rem}
+.f-contacts a{display:inline-block;padding:4px 0}
+.site-footer a{color:var(--white);text-decoration:none;border-bottom:1px solid transparent;transition:border-color var(--dur)}
+.site-footer a:hover{border-color:var(--blush)}
+.f-links{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 26px;justify-content:center;font-size:.93rem}
+@media (min-width:760px){.f-links{justify-content:flex-start;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}}
+.f-links a{display:inline-block;padding:6px 0}
+.f-bottom{border-top:1px solid rgba(233,222,215,.25);padding-top:26px;text-align:center;font-size:.82rem;color:var(--champagne)}
+.f-bottom p{margin:0}
+
+/* =========================================================
+   REVEAL + reduced motion
+   ========================================================= */
+.reveal{opacity:0;transform:translateY(14px);transition:opacity 450ms var(--ease), transform 450ms var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.no-js .reveal{opacity:1;transform:none}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:1ms !important;animation-duration:1ms !important;animation-iteration-count:1 !important}
+  .reveal{opacity:1;transform:none}
+  .card:hover,.cal-trigger:hover img,.service:hover .card-media img{transform:none}
+}
+</style>
+</head>
+
+<body class="no-js">
+<a class="skip" href="#main">Vai al contenuto</a>
+
+<!-- =================== HEADER =================== -->
+<header class="site-header" id="top">
+  <div class="container bar">
+    <a class="brand" href="#home" aria-label="Esthétique di Teresa Zanni — torna all'inizio">
+      <span class="brand-name">ESTHÉTIQUE</span>
+      <span class="brand-sub">DI TERESA ZANNI</span>
+    </a>
+
+    <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Apri il menu">
+      <span aria-hidden="true"></span>
+    </button>
+
+    <nav class="nav" id="site-nav" aria-label="Navigazione principale">
+      <ul>
+        <li><a class="link" href="#chi-siamo">Chi siamo</a></li>
+        <li><a class="link" href="#a-chi-ci-rivolgiamo">A chi ci rivolgiamo</a></li>
+        <li><a class="link" href="#approccio">Approccio</a></li>
+        <li><a class="link" href="#servizi">Servizi</a></li>
+        <li><a class="link" href="#corsi">Corsi</a></li>
+        <li><a class="link" href="#come-funziona">Come funziona</a></li>
+        <li><a class="link" href="#dove-siamo">Dove siamo</a></li>
+        <li><a class="link" href="#faq">FAQ</a></li>
+        <li><a class="link" href="#contatti">Contatti</a></li>
+      </ul>
+      <a class="btn btn-primary" href="#servizi">Scopri i trattamenti</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- =================== HERO =================== -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <img class="hero-img"
+    src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=1400&q=70&auto=format&fit=crop"
+    srcset="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&q=70&auto=format&fit=crop 800w, https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=1400&q=70&auto=format&fit=crop 1400w, https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=2000&q=70&auto=format&fit=crop 2000w"
+    sizes="100vw" width="2000" height="1333" alt="" fetchpriority="high" decoding="async">
+  <div class="hero-inner">
+    <p class="eyebrow">Esthétique di Teresa Zanni · <span style="white-space:nowrap">Orta Nova</span></p>
+    <h1 id="hero-title"><span class="l1">La bellezza è nei dettagli.</span> <span class="l2">La differenza è nella cura.</span></h1>
+    <p class="lead">Un luogo dedicato alla bellezza, dove professionalità, ascolto e attenzione si incontrano per valorizzare ogni persona. Scopri i nostri trattamenti e i percorsi di formazione beauty.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#servizi">Scopri i trattamenti</a>
+      <a class="btn btn-secondary" href="#corsi">Esplora i corsi</a>
+    </div>
+  </div>
+</section>
+
+<!-- =================== CHI SIAMO (bianco) =================== -->
+<section class="section bg-white" id="chi-siamo" aria-labelledby="chi-siamo-title">
+  <div class="container about">
+    <figure class="about-photo reveal">
+      <img src="assets/teresa-zanni.webp" width="800" height="800" loading="lazy" decoding="async"
+           alt="Ritratto di Teresa Zanni, fondatrice di Esthétique, in giacca nera e camicia bianca">
+    </figure>
+
+    <div class="head reveal">
+      <p class="eyebrow">Chi siamo</p>
+      <h2 class="h2" id="chi-siamo-title">La bellezza, per noi, è una questione di cura.</h2>
+    </div>
+
+    <div class="about-text reveal">
+      <p>Esthétique nasce dall'idea e dalla passione di <strong>Teresa Zanni</strong>: creare un luogo dedicato alla bellezza, all'estetica e alla valorizzazione di ogni persona.</p>
+      <p>Crediamo che guidare un centro non significhi semplicemente dirigere un'attività, ma <strong>esserci, ogni giorno</strong>. Per questo Teresa continua a lavorare personalmente accanto alle clienti e al nostro <strong>team</strong>, con la stessa passione che l'ha accompagnata nell'apertura del centro e che oggi condividiamo tutti, ogni giorno.</p>
+      <p class="quote">Per noi la bellezza non si esaurisce in un trattamento ben eseguito. È fatta di ascolto, precisione, aggiornamento continuo e attenzione ai dettagli.</p>
+      <p>Ogni persona che sceglie Esthétique porta con sé esigenze, desideri e aspettative differenti. Il nostro impegno è accoglierla con <strong>professionalità</strong>, dedicarle il giusto tempo e valorizzarne la bellezza attraverso servizi curati e personalizzati.</p>
+      <p>Accanto ai trattamenti estetici, portiamo avanti un <strong>progetto di formazione nel mondo nails e make-up</strong>, voluto da Teresa per chi desidera imparare, perfezionarsi e trasformare la propria passione in competenze professionali.</p>
+      <p>Crediamo che la qualità si costruisca ogni giorno, attraverso il lavoro, la dedizione e l'esempio. <strong>La fiducia delle nostre clienti resta il riconoscimento più importante.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- =================== A CHI CI RIVOLGIAMO (avorio) =================== -->
+<section class="section bg-ivory" id="a-chi-ci-rivolgiamo" aria-labelledby="target-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">A chi ci rivolgiamo</p>
+      <h2 class="h2" id="target-title">Ogni bellezza merita attenzione.</h2>
+      <p class="lead">Ogni persona è diversa, così come i suoi desideri. Per questo dedichiamo attenzione a ogni esigenza, dal trattamento quotidiano alle occasioni più importanti.</p>
+    </div>
+
+    <div class="cards cards-3">
+      <article class="card target reveal">
+        <span class="t-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M16 27c-5.5 0-9.5-4-9.5-9.5 4 0 7.4 2 9.5 5.4 2.1-3.4 5.5-5.4 9.5-5.4 0 5.5-4 9.5-9.5 9.5z"/><path d="M16 22.9c-2-2.7-2.7-6.4 0-12.4 2.7 6 2 9.7 0 12.4z"/><path d="M11.2 17.7c-.8-2.4-.6-4.8.7-7.4 1.2 1 2.2 2.2 2.8 3.5M20.8 17.7c.8-2.4.6-4.8-.7-7.4-1.2 1-2.2 2.2-2.8 3.5"/><path d="M16 5v1.6M10 7l.9 1.2M22 7l-.9 1.2"/></svg>
+        </span>
+        <h3>A chi desidera prendersi cura di sé</h3>
+        <span class="sep" aria-hidden="true"></span>
+        <p>Per chi desidera dedicarsi del tempo attraverso trattamenti estetici per viso, corpo, mani e piedi, in un ambiente accogliente e professionale.</p>
+      </article>
+
+      <article class="card target reveal">
+        <span class="t-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><circle cx="16" cy="20" r="7.5"/><circle cx="16" cy="20" r="5.2"/><path d="M12.6 8.6 16 12.6l3.4-4-1.4-2.6h-4z"/><path d="M12.6 8.6h6.8M14.6 6l1.4 2.6L17.4 6"/><path d="M8 5.5l.5 1.3 1.3.5-1.3.5L8 9.1l-.5-1.3-1.3-.5 1.3-.5zM24.5 4.5l.4 1 1 .4-1 .4-.4 1-.4-1-1-.4 1-.4z"/></svg>
+        </span>
+        <h3>Alle spose e a chi vive un'occasione speciale</h3>
+        <span class="sep" aria-hidden="true"></span>
+        <p>Per chi desidera un make-up elegante e personalizzato per il matrimonio, una cerimonia o un momento importante.</p>
+      </article>
+
+      <article class="card target reveal">
+        <span class="t-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M3.5 12 16 6l12.5 6L16 18z"/><path d="M9 14.7v6.1c0 1.9 3.1 3.7 7 3.7s7-1.8 7-3.7v-6.1"/><path d="M28.5 12v7"/><circle cx="28.5" cy="20.6" r="1.3"/></svg>
+        </span>
+        <h3>Alle aspiranti professioniste beauty</h3>
+        <span class="sep" aria-hidden="true"></span>
+        <p>Per chi desidera avvicinarsi al mondo nails e make-up, perfezionare le proprie tecniche o ampliare le competenze attraverso percorsi formativi pratici.</p>
+      </article>
+    </div>
+
+    <div class="cta-end">
+      <a class="btn btn-primary" href="#contatti">Richiedi una consulenza</a>
+    </div>
+  </div>
+</section>
+
+<!-- =================== IL NOSTRO APPROCCIO (champagne) =================== -->
+<section class="section bg-champagne" id="approccio" aria-labelledby="approccio-title">
+  <div class="container">
+    <div class="head reveal" style="margin-bottom:28px">
+      <p class="eyebrow">Il nostro approccio</p>
+      <h2 class="h2" id="approccio-title">Professionalità, precisione e attenzione ai dettagli.</h2>
+    </div>
+    <div class="intro-2 reveal">
+      <p style="margin:0">Crediamo che ogni trattamento debba nascere dall'ascolto della persona e dalla comprensione delle sue esigenze. Per questo uniamo competenza tecnica, attenzione e aggiornamento continuo, con l'obiettivo di offrire un'esperienza curata in ogni dettaglio.</p>
+    </div>
+
+    <div class="atelier">
+      <ul class="pillar-col left">
+        <li class="pillar reveal"><h3>Ascolto</h3><p>Dedichiamo attenzione alle esigenze e ai desideri di ogni cliente, per individuare il servizio più adatto.</p></li>
+        <li class="pillar reveal"><h3>Personalizzazione</h3><p>Valorizziamo le caratteristiche individuali attraverso trattamenti e make-up pensati per ogni persona.</p></li>
+      </ul>
+
+      <div class="emblem reveal" aria-hidden="true">
+        <span class="ring"></span><span class="ring ring-2"></span><span class="ring ring-3"></span>
+        <span class="dot t"></span><span class="dot r"></span><span class="dot b"></span><span class="dot l"></span>
+        <p class="emblem-text"><span class="a">Esthétique</span><span class="b">La cura</span><span class="c">nei dettagli</span></p>
+      </div>
+
+      <ul class="pillar-col right">
+        <li class="pillar reveal"><h3>Precisione</h3><p>Curiamo ogni fase del lavoro con attenzione tecnica e sensibilità estetica.</p></li>
+        <li class="pillar reveal"><h3>Aggiornamento</h3><p>Consideriamo la formazione e il perfezionamento professionale parte integrante del nostro lavoro.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- =================== I SERVIZI (bianco) =================== -->
+<section class="section bg-white" id="servizi" aria-labelledby="servizi-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">I servizi</p>
+      <h2 class="h2" id="servizi-title">La tua bellezza, la nostra passione.</h2>
+      <p class="lead">Trattamenti estetici e servizi beauty dedicati alla valorizzazione della persona, con attenzione alla qualità, alla precisione e ai dettagli.</p>
+    </div>
+
+    <div class="cards cards-4">
+      <article class="card service reveal">
+        <div class="card-media">
+          <img src="assets/servizio-unghie.jpg" width="705" height="951" loading="lazy" decoding="async" style="object-position:50% 45%"
+               alt="Ricostruzione unghie con french bianca e decorazioni floreali in rilievo">
+        </div>
+        <div class="card-body">
+          <h3>Ricostruzione unghie</h3>
+          <p class="tagline">Forma, struttura e finitura impeccabili.</p>
+          <p>Ricostruzione in gel, refill, semipermanente, manicure, pedicure e nail art: ogni servizio è curato nella forma, nella precisione e nei dettagli della finitura.</p>
+        </div>
+      </article>
+
+      <article class="card service reveal">
+        <div class="card-media">
+          <img src="assets/servizio-makeup.webp" width="1095" height="1436" loading="lazy" decoding="async" style="object-position:50% 28%"
+               alt="Make-up sposa con occhi sfumati nei toni bruni e labbra nude">
+        </div>
+        <div class="card-body">
+          <h3>Make-up Luxury</h3>
+          <p class="tagline">Eleganza su misura per ogni occasione.</p>
+          <p>Make-up sposa, cerimonia ed eventi speciali, studiato per valorizzare i lineamenti nel rispetto dello stile personale, dei desideri e del momento.</p>
+        </div>
+      </article>
+
+      <article class="card service reveal">
+        <div class="card-media">
+          <img src="assets/servizio-viso-corpo.webp" width="1083" height="1453" loading="lazy" decoding="async" style="object-position:50% 45%"
+               alt="Mani che eseguono un trattamento corpo sulla schiena">
+        </div>
+        <div class="card-body">
+          <h3>Trattamenti specifici Viso/Corpo</h3>
+          <p class="tagline">Un momento dedicato solo a te.</p>
+          <p>Trattamenti estetici per viso e corpo orientati alla cura della pelle e al benessere, con modalità definite in base alle esigenze individuali.</p>
+        </div>
+      </article>
+
+      <article class="card service reveal">
+        <div class="card-media">
+          <img src="https://images.unsplash.com/photo-1700760933574-9f0f4ea9aa3b?w=600&h=600&q=72&auto=format&fit=crop"
+               srcset="https://images.unsplash.com/photo-1700760933574-9f0f4ea9aa3b?w=420&h=420&q=72&auto=format&fit=crop 420w, https://images.unsplash.com/photo-1700760933574-9f0f4ea9aa3b?w=720&h=720&q=72&auto=format&fit=crop 720w"
+               sizes="(min-width:1000px) 200px, (min-width:640px) 50vw, 360px" width="720" height="720" loading="lazy" decoding="async"
+               alt="Immagine illustrativa: trattamento di epilazione laser sulla gamba">
+        </div>
+        <div class="card-body">
+          <h3>Epilazione Laser</h3>
+          <p class="tagline">Tecnologia e attenzione alla persona.</p>
+          <p>Un percorso orientato alla riduzione progressiva dei peli, con modalità e idoneità del trattamento valutate in base alle caratteristiche individuali.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="cta-end">
+      <a class="btn btn-primary" href="#contatti">Prenota una consulenza</a>
+    </div>
+  </div>
+</section>
+
+<!-- =================== CORSI (avorio) =================== -->
+<section class="section bg-ivory" id="corsi" aria-labelledby="corsi-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Corsi</p>
+      <h2 class="h2" id="corsi-title">La tua passione può diventare il tuo futuro.</h2>
+      <p class="lead">Da Esthétique di Teresa Zanni nasce un percorso di formazione dedicato a chi desidera imparare un mestiere, perfezionarsi o ampliare le proprie competenze nel settore beauty. Scopri le date dei corsi in partenza.</p>
+    </div>
+
+    <div class="reveal">
+      <button class="cal-trigger" type="button" id="open-cal" aria-haspopup="dialog" aria-controls="cal-dialog" aria-label="Scopri di più: apri il calendario dei corsi e delle date">
+        <img src="https://images.unsplash.com/photo-1627435601028-8824942f59ef?w=1200&h=675&q=75&auto=format&fit=crop"
+             srcset="https://images.unsplash.com/photo-1627435601028-8824942f59ef?w=640&h=360&q=75&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1627435601028-8824942f59ef?w=1200&h=675&q=75&auto=format&fit=crop 1200w, https://images.unsplash.com/photo-1627435601028-8824942f59ef?w=1600&h=900&q=75&auto=format&fit=crop 1600w"
+             sizes="(min-width:800px) 760px, 100vw" width="1600" height="900" loading="lazy" decoding="async" alt="">
+        <span class="ct-more" aria-hidden="true">Scopri di più
+          <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Modal calendario corsi -->
+<dialog class="cal" id="cal-dialog" aria-labelledby="cal-title">
+  <div class="cal-head">
+    <p class="eyebrow">Calendario corsi</p>
+    <h2 id="cal-title">I corsi in partenza</h2>
+    <button class="cal-close" type="button" data-close aria-label="Chiudi il calendario">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3l10 10M13 3 3 13"/></svg>
+    </button>
+    <div class="cal-filters" role="group" aria-label="Filtra i corsi">
+      <button type="button" data-filter="all" aria-pressed="true">Tutti</button>
+      <button type="button" data-filter="nails" aria-pressed="false">Nails</button>
+      <button type="button" data-filter="makeup" aria-pressed="false">Make-up</button>
+    </div>
+  </div>
+
+  <div class="cal-body">
+    <ul class="cal-list">
+      <li class="course" data-cat="nails" data-end="2026-11-05">
+        <div>
+          <span class="course-cat">Nails</span>
+          <h3>Ricostruzione Base Gel</h3>
+          <ul class="dates" aria-label="Date">
+            <li class="date"><b>22</b><span>ott</span></li><li class="date"><b>28</b><span>ott</span></li><li class="date"><b>5</b><span>nov</span></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" type="button" data-book="Ricostruzione Base Gel" data-dates="22, 28 ottobre, 5 novembre">Prenota il tuo posto</button>
+      </li>
+      <li class="course" data-cat="nails" data-end="2026-11-26">
+        <div>
+          <span class="course-cat">Nails</span>
+          <h3>Perfezionamento Gel</h3>
+          <ul class="dates" aria-label="Date">
+            <li class="date"><b>12</b><span>nov</span></li><li class="date"><b>19</b><span>nov</span></li><li class="date"><b>26</b><span>nov</span></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" type="button" data-book="Perfezionamento Gel" data-dates="12, 19, 26 novembre">Prenota il tuo posto</button>
+      </li>
+      <li class="course" data-cat="nails" data-end="2026-11-27">
+        <div>
+          <span class="course-cat">Nails</span>
+          <h3>Dual Form</h3>
+          <ul class="dates" aria-label="Date">
+            <li class="date"><b>13</b><span>nov</span></li><li class="date"><b>20</b><span>nov</span></li><li class="date"><b>27</b><span>nov</span></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" type="button" data-book="Dual Form" data-dates="13, 20, 27 novembre">Prenota il tuo posto</button>
+      </li>
+      <li class="course" data-cat="nails" data-end="2026-12-17">
+        <div>
+          <span class="course-cat">Nails · Pedicure</span>
+          <h3>Pedicure Avanzato</h3>
+          <ul class="dates" aria-label="Date">
+            <li class="date"><b>3</b><span>dic</span></li><li class="date"><b>10</b><span>dic</span></li><li class="date"><b>17</b><span>dic</span></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" type="button" data-book="Pedicure Avanzato" data-dates="3, 10, 17 dicembre">Prenota il tuo posto</button>
+      </li>
+      <li class="course" data-cat="makeup" data-end="2027-01-28">
+        <div>
+          <span class="course-cat">Make-up</span>
+          <h3>Make Up Base</h3>
+          <ul class="dates" aria-label="Date">
+            <li class="date"><b>14</b><span>gen</span></li><li class="date"><b>21</b><span>gen</span></li><li class="date"><b>28</b><span>gen</span></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" type="button" data-book="Make Up Base" data-dates="14, 21, 28 gennaio">Prenota il tuo posto</button>
+      </li>
+      <li class="course" data-cat="makeup" data-end="2027-02-18">
+        <div>
+          <span class="course-cat">Make-up · Bridal</span>
+          <h3>Trucco Sposa</h3>
+          <ul class="dates" aria-label="Date">
+            <li class="date"><b>4</b><span>feb</span></li><li class="date"><b>11</b><span>feb</span></li><li class="date"><b>18</b><span>feb</span></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" type="button" data-book="Trucco Sposa" data-dates="4, 11, 18 febbraio">Prenota il tuo posto</button>
+      </li>
+      <li class="course" data-cat="makeup" data-end="2027-02-25">
+        <div>
+          <span class="course-cat">Make-up</span>
+          <h3>Corso di Autotrucco</h3>
+          <ul class="dates" aria-label="Date">
+            <li class="date"><b>25</b><span>feb</span></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" type="button" data-book="Corso di Autotrucco" data-dates="25 febbraio">Prenota il tuo posto</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="cal-foot">
+    <ul>
+      <li>Attestato di partecipazione</li>
+      <li>Formazione pratica su modella</li>
+      <li>Supporto didattico e assistenza post corso</li>
+      <li>Posti limitati</li>
+    </ul>
+    <p>Scegli il corso e invia la richiesta: ti ricontatteremo per confermare il posto.</p>
+  </div>
+</dialog>
+
+<!-- =================== COME FUNZIONA (champagne) =================== -->
+<section class="section bg-champagne" id="come-funziona" aria-labelledby="come-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Come funziona</p>
+      <h2 class="h2" id="come-title">La tua esperienza beauty inizia da qui.</h2>
+    </div>
+    <div style="position:relative">
+      <ol class="flow" id="flow">
+        <li class="flow-step"><span class="f-num" aria-hidden="true">01</span><div class="f-text"><h3>Contattaci</h3><p>Scrivici o chiamaci per conoscere i trattamenti, i corsi e le disponibilità.</p></div></li>
+        <li class="flow-step"><span class="f-num" aria-hidden="true">02</span><div class="f-text"><h3>Consulenza</h3><p>Ci confrontiamo sulle tue esigenze per individuare il trattamento o il percorso più adatto a te.</p></div></li>
+        <li class="flow-step"><span class="f-num" aria-hidden="true">03</span><div class="f-text"><h3>Prenota</h3><p>Fissiamo insieme l'appuntamento, telefonicamente o tramite il modulo di contatto.</p></div></li>
+        <li class="flow-step"><span class="f-num" aria-hidden="true">04</span><div class="f-text"><h3>Vivi l'esperienza</h3><p>Ti accogliamo nel nostro centro per dedicarti un momento di cura, bellezza e attenzione.</p></div></li>
+      </ol>
+      <div class="flow-track" aria-hidden="true"><span class="flow-fill" id="flow-fill"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== DOVE SIAMO (bianco) =================== -->
+<section class="section bg-white" id="dove-siamo" aria-labelledby="dove-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Dove siamo</p>
+      <h2 class="h2" id="dove-title">Il tuo spazio di bellezza a Orta Nova.</h2>
+    </div>
+
+    <address class="addr-box reveal">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+      <p><span class="a1">Via San Pasquale 6</span><br><span class="a2">71045 Orta Nova (FG)</span></p>
+    </address>
+  </div>
+</section>
+
+<!-- =================== FAQ (avorio) =================== -->
+<section class="section bg-ivory" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">FAQ</p>
+      <h2 class="h2" id="faq-title">Le risposte alle domande più frequenti.</h2>
+    </div>
+
+    <div class="faq reveal">
+      <div class="faq-item">
+        <h3 class="faq-q"><button class="faq-btn" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">Quali trattamenti offre Esthétique?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-panel" id="faq-1" role="region" aria-labelledby="faq-1-btn"><div><p>Proponiamo servizi dedicati alla cura delle unghie, make-up, trattamenti estetici specifici viso/corpo ed epilazione laser.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button class="faq-btn" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">È possibile prenotare un make-up sposa?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-panel" id="faq-2" role="region" aria-labelledby="faq-2-btn"><div><p>Sì, realizziamo make-up dedicati alle spose e alle occasioni speciali. Per conoscere modalità e disponibilità puoi contattarci direttamente: saremo felici di consigliarti.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button class="faq-btn" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">Quali servizi offrite per le unghie?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-panel" id="faq-3" role="region" aria-labelledby="faq-3-btn"><div><p>Offriamo ricostruzione gel, refill, semipermanente, manicure, pedicure e nail art.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button class="faq-btn" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">Organizzate corsi di formazione?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-panel" id="faq-4" role="region" aria-labelledby="faq-4-btn"><div><p>Sì, organizziamo corsi dedicati al mondo nails e make-up, rivolti a chi desidera apprendere nuove tecniche o perfezionare le proprie competenze. Trovi date e corsi nel calendario della sezione Corsi.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button class="faq-btn" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">I corsi prevedono un attestato?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-panel" id="faq-5" role="region" aria-labelledby="faq-5-btn"><div><p>Sì, al termine dei nostri corsi rilasciamo un attestato di partecipazione. Per dettagli su contenuti, requisiti e modalità puoi chiederci informazioni direttamente.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button class="faq-btn" type="button" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn">Come posso prenotare un appuntamento?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-panel" id="faq-6" role="region" aria-labelledby="faq-6-btn"><div><p>Puoi chiamarci al <a href="tel:+393208525205">320 852 5205</a> oppure scriverci attraverso il modulo nella sezione Contatti: ti ricontatteremo noi.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== CONTATTI (champagne) =================== -->
+<section class="section bg-champagne" id="contatti" aria-labelledby="contatti-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Contatti</p>
+      <h2 class="h2" id="contatti-title">La tua bellezza merita attenzione.</h2>
+    </div>
+
+    <!--
+      MODULO CONTATTI: impostare data-endpoint con l'URL del servizio di invio
+      (es. Formspree / backend del sito) collegato all'email verificata del centro.
+    -->
+    <form class="form-card reveal" id="contact-form" data-endpoint="" novalidate>
+      <div class="f-row two">
+        <div class="field">
+          <label for="f-name">Nome</label>
+          <input id="f-name" name="nome" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+      <div class="f-row two">
+        <div class="field">
+          <label for="f-phone">Telefono <span class="opt">(facoltativo)</span></label>
+          <input id="f-phone" name="telefono" type="tel" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="f-service">Servizio di interesse</label>
+          <select id="f-service" name="servizio" required>
+            <option value="">Seleziona…</option>
+            <option>Ricostruzione unghie</option>
+            <option>Make-up Luxury</option>
+            <option>Trattamenti Viso/Corpo</option>
+            <option>Epilazione Laser</option>
+            <option>Corsi di formazione</option>
+            <option>Informazioni generali</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-msg">Messaggio</label>
+        <textarea id="f-msg" name="messaggio" rows="4" maxlength="800" required></textarea>
+      </div>
+      <label class="check">
+        <input type="checkbox" name="privacy" id="f-privacy" required>
+        <span>Ho letto l'<a href="privacy-policy.html" target="_blank" rel="noopener">informativa privacy</a> e acconsento al trattamento dei dati per ricevere una risposta.</span>
+      </label>
+      <button class="btn btn-primary" type="submit">Invia la richiesta</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- =================== FOOTER =================== -->
+<footer class="site-footer on-dark">
+  <div class="container">
+    <div class="f-top">
+      <a class="f-brand" href="#home" aria-label="Esthétique di Teresa Zanni — torna all'inizio" style="border:0">
+        <span class="brand-name">ESTHÉTIQUE</span>
+        <span class="brand-sub">DI TERESA ZANNI</span>
+      </a>
+      <p class="f-claim">La bellezza è nei dettagli. La differenza è nella cura.</p>
+    </div>
+
+    <div class="f-grid">
+      <div class="f-contacts">
+        <p class="f-title">Contatti</p>
+        <p>Via San Pasquale 6, 71045 Orta Nova (FG)</p>
+        <p><a href="tel:+393208525205">320 852 5205</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/teresa.zanni_esthetique/" target="_blank" rel="noopener">@teresa.zanni_esthetique</a></p>
+      </div>
+      <nav aria-label="Link del footer">
+        <p class="f-title">Link</p>
+        <ul class="f-links">
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#a-chi-ci-rivolgiamo">A chi ci rivolgiamo</a></li>
+          <li><a href="#approccio">Approccio</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#corsi">Corsi</a></li>
+          <li><a href="#come-funziona">Come funziona</a></li>
+          <li><a href="#dove-siamo">Dove siamo</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="cookie-policy.html">Cookie Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- DATI PROFESSIONALI: inserire ragione sociale e P.IVA solo dopo verifica con la titolare -->
+    <div class="f-bottom">
+      <p>© <span id="year">2026</span> Esthétique di Teresa Zanni · Orta Nova (FG)</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.body.classList.remove('no-js');
+  var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- Menu mobile ---------- */
+  var burger=document.querySelector('.burger'), nav=document.getElementById('site-nav');
+  function setMenu(open){
+    burger.setAttribute('aria-expanded',open);
+    burger.setAttribute('aria-label',open?'Chiudi il menu':'Apri il menu');
+    nav.classList.toggle('open',open);
+    document.body.style.overflow=open?'hidden':'';
+  }
+  burger.addEventListener('click',function(){setMenu(burger.getAttribute('aria-expanded')!=='true')});
+  nav.addEventListener('click',function(e){ if(e.target.closest('a')) setMenu(false) });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape' && nav.classList.contains('open')){setMenu(false);burger.focus()} });
+  window.matchMedia('(min-width:1024px)').addEventListener('change',function(m){ if(m.matches) setMenu(false) });
+
+  /* ---------- Voce attiva + reveal ---------- */
+  var links=[].slice.call(document.querySelectorAll('.nav a.link'));
+  if('IntersectionObserver' in window){
+    var spy=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(!en.isIntersecting) return;
+        links.forEach(function(l){
+          if(l.getAttribute('href')==='#'+en.target.id) l.setAttribute('aria-current','true'); else l.removeAttribute('aria-current');
+        });
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    links.forEach(function(l){var s=document.querySelector(l.getAttribute('href')); if(s) spy.observe(s)});
+
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target) } });
+    },{rootMargin:'0px 0px -8% 0px',threshold:.08});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')});
+  }
+
+  /* ---------- Come funziona: linea che si "disegna" con lo scroll ---------- */
+  var flow=document.getElementById('flow'), fill=document.getElementById('flow-fill');
+  var steps=[].slice.call(flow.querySelectorAll('.flow-step'));
+  var desk=window.matchMedia('(min-width:900px)');
+  function updateFlow(){
+    var r=flow.getBoundingClientRect(), vh=window.innerHeight;
+    var p;
+    if(reduce){ p=1; }
+    else if(desk.matches){ p=(vh*0.9 - r.top)/(vh*0.45); }
+    else { p=(vh*0.75 - r.top)/(r.height*0.9); }
+    p=Math.max(0,Math.min(1,p));
+    if(desk.matches){ fill.style.width=(p*100)+'%'; fill.style.height=''; }
+    else { fill.style.height=(p*100)+'%'; fill.style.width=''; }
+    steps.forEach(function(s,i){ s.classList.toggle('on', p >= (i/(steps.length-1)) - 0.001 && p>0) });
+  }
+  var ticking=false;
+  window.addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(function(){ updateFlow(); ticking=false }) } },{passive:true});
+  window.addEventListener('resize',updateFlow);
+  updateFlow();
+
+  /* ---------- FAQ ---------- */
+  document.querySelectorAll('.faq-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var item=btn.closest('.faq-item'), open=btn.getAttribute('aria-expanded')==='true';
+      btn.setAttribute('aria-expanded',!open);
+      item.classList.toggle('open',!open);
+    });
+  });
+
+  /* ---------- Modal calendario corsi ---------- */
+  var dlg=document.getElementById('cal-dialog'), opener=document.getElementById('open-cal');
+  var today=new Date(); today.setHours(0,0,0,0);
+  dlg.querySelectorAll('.course').forEach(function(c){
+    var end=new Date(c.getAttribute('data-end')+'T23:59:59');
+    if(end<today){
+      c.classList.add('is-past');
+      var h=c.querySelector('h3'); var b=document.createElement('span'); b.className='badge'; b.textContent='Concluso'; h.appendChild(b);
+      var btn=c.querySelector('[data-book]'); btn.textContent='Richiedi le prossime date'; btn.classList.replace('btn-primary','btn-secondary'); btn.setAttribute('data-past','1');
+    }
+  });
+  function openCal(){
+    if(typeof dlg.showModal==='function'){ dlg.showModal(); } else { dlg.setAttribute('open',''); }
+    document.documentElement.style.overflow='hidden';
+  }
+  function closeCal(){ if(dlg.open) dlg.close(); }
+  var booking=false;
+  dlg.addEventListener('close',function(){
+    document.documentElement.style.overflow='';
+    if(!booking) opener.focus({preventScroll:true});
+    booking=false;
+  });
+  opener.addEventListener('click',openCal);
+  dlg.querySelector('[data-close]').addEventListener('click',closeCal);
+  dlg.addEventListener('click',function(e){ if(e.target===dlg) closeCal(); });
+
+  var fbtns=[].slice.call(dlg.querySelectorAll('[data-filter]'));
+  fbtns.forEach(function(b){
+    b.addEventListener('click',function(){
+      var f=b.getAttribute('data-filter');
+      fbtns.forEach(function(x){x.setAttribute('aria-pressed', x===b)});
+      dlg.querySelectorAll('.course').forEach(function(c){ c.hidden = !(f==='all' || c.getAttribute('data-cat')===f) });
+    });
+  });
+
+  var form=document.getElementById('contact-form');
+  dlg.querySelectorAll('[data-book]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var name=b.getAttribute('data-book'), dates=b.getAttribute('data-dates');
+      document.getElementById('f-service').value='Corsi di formazione';
+      document.getElementById('f-msg').value = b.hasAttribute('data-past')
+        ? 'Vorrei ricevere informazioni sulle prossime date del corso "'+name+'".'
+        : 'Vorrei prenotare un posto per il corso "'+name+'" ('+dates+').';
+      booking=true;
+      dlg.close();
+      document.getElementById('contatti').scrollIntoView({behavior: reduce?'auto':'smooth'});
+      setTimeout(function(){ document.getElementById('f-name').focus({preventScroll:true}) }, reduce?0:600);
+    });
+  });
+
+  /* ---------- Form contatti ---------- */
+  var status=document.getElementById('form-status');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var invalid=null;
+    form.querySelectorAll('[required]').forEach(function(f){
+      var ok = f.type==='checkbox' ? f.checked : f.checkValidity() && f.value.trim()!=='';
+      f.setAttribute('aria-invalid', !ok);
+      if(!ok && !invalid) invalid=f;
+    });
+    if(invalid){ status.textContent='Compila i campi obbligatori e accetta l\'informativa privacy.'; invalid.focus(); return; }
+    var endpoint=form.getAttribute('data-endpoint');
+    if(!endpoint){ status.textContent='Il modulo non è ancora attivo: per ora puoi chiamarci al 320 852 5205.'; return; }
+    var btn=form.querySelector('[type=submit]'); btn.disabled=true; status.textContent='Invio in corso…';
+    fetch(endpoint,{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
+      .then(function(r){ if(!r.ok) throw 0; form.reset(); status.textContent='Grazie! Abbiamo ricevuto la tua richiesta e ti ricontatteremo al più presto.'; })
+      .catch(function(){ status.textContent='Invio non riuscito. Riprova o chiamaci al 320 852 5205.'; })
+      .then(function(){ btn.disabled=false; });
+  });
+  form.addEventListener('input',function(e){ if(e.target.hasAttribute('aria-invalid')) e.target.removeAttribute('aria-invalid') });
+})();
+</script>
+</body>
+</html>
